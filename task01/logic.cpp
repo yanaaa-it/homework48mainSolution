@@ -1,3 +1,4 @@
+#include"logic.h"
 //сортировка вставками более эффективна
 void insertion_Sort(int arr[], int n)
 {
