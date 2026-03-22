@@ -1,4 +1,4 @@
-void insertion_Sort(int arr[], int n)
+void Selection_Sort(int arr[], int n)
 {
     for (int i = 0; i < n; ++i) {
 

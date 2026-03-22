@@ -10,14 +10,7 @@ int main() {
 
 	init_user(array, size);
 
-
-	long long start = time(NULL);
-
-	 insertion_Sort(array, size);
-
-	long long finish = time(NULL);
-
-	print(get_time(finish, start));
+    insertion_Sort(array, size);
 
 	print("\n\nAfter sorting: ");
 	print(convert(array, size));

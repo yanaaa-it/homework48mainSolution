@@ -21,21 +21,3 @@ string convert(int array[], int lenght) {
 	return s;
 }
 
-string get_time(long long start, long long finish) {
-	if (start > finish) {
-		int t = start;
-		start = finish;
-		finish = t;
-	}
-	string result = "";
-
-	long long time = finish - start;
-
-	result += to_string(time / 3600);
-
-	result += " : " + to_string((time % 3600) / 60);
-
-	result += " : " + to_string(time % 60);
-
-	return result;
-}
